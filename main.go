@@ -14,7 +14,7 @@ var RootCmd = &cobra.Command{
 var HelloCmd = &cobra.Command{
 	Use: "Hello",
 	Run: func(cmd *cobra.Command, args []string) {
-		fmt.Println("Hello!")
+		fmt.Println("Hello!!")
 	},
 }
 
