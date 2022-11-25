@@ -2,9 +2,9 @@ name: Deploy to Stage
 
 on:
   workflow_dispatch:
-  push:
+  pull_request:
     branches:
-      - main
+      - master
       
 jobs:
   build:
